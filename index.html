@@ -145,7 +145,7 @@
         let targetDate;
 
         if (countdownType === "newYear") {
-            targetDate = new Date("2025-01-01T00:00:00"); // Cambia la fecha objetivo aquí
+            targetDate = new Date("2025-01-01T00:00:00Z"); // Cambia la fecha objetivo aquí
         } else if (countdownType === "seconds") {
             targetDate = new Date(Date.now() + countdownSeconds * 1000); // Cuenta regresiva en segundos
         }
